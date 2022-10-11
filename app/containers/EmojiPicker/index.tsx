@@ -14,6 +14,7 @@ import { IEmoji, ICustomEmojis } from '../../definitions';
 import { useAppSelector } from '../../lib/hooks';
 import { IEmojiPickerProps, EventTypes } from './interfaces';
 import { useFrequentlyUsedEmoji, addFrequentlyUsed } from './frequentlyUsedEmojis';
+import { getEmojiText } from './helpers';
 
 const EmojiPicker = ({
 	onItemClicked,
@@ -42,13 +43,9 @@ const EmojiPicker = ({
 	);
 
 	const handleEmojiSelect = (emoji: IEmoji) => {
+		console.log('🚀 ~ file: index.tsx ~ line 45 ~ handleEmojiSelect ~ emoji', emoji);
 		try {
-			if (typeof emoji === 'string') {
-				const shortname = `:${emoji}:`;
-				onItemClicked(EventTypes.EMOJI_PRESSED, shortnameToUnicode(shortname), shortname);
-			} else {
-				onItemClicked(EventTypes.EMOJI_PRESSED, `:${emoji.content}:`);
-			}
+			onItemClicked(EventTypes.EMOJI_PRESSED, getEmojiText(emoji));
 			addFrequentlyUsed(emoji);
 		} catch (e) {
 			log(e);

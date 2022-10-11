@@ -49,6 +49,7 @@ export const useFrequentlyUsedEmoji = (
 };
 
 export const addFrequentlyUsed = async (emoji: IEmoji) => {
+	console.log('🚀 ~ file: frequentlyUsedEmojis.ts ~ line 52 ~ addFrequentlyUsed ~ emoji', emoji);
 	const db = database.active;
 	const freqEmojiCollection = db.get('frequently_used_emojis');
 	let freqEmojiRecord: TFrequentlyUsedEmojiModel;
