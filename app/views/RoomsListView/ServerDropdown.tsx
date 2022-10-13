@@ -5,7 +5,7 @@ import { withSafeAreaInsets } from 'react-native-safe-area-context';
 import { Subscription } from 'rxjs';
 
 import * as List from '../../containers/List';
-import Button from '../../containers/Button';
+// import Button from '../../containers/Button';
 import { toggleServerDropdown } from '../../actions/rooms';
 import { selectServerRequest, serverInitAdd } from '../../actions/server';
 import { appStart } from '../../actions/app';
@@ -246,7 +246,7 @@ class ServerDropdown extends Component<IServerDropdownProps, IServerDropdownStat
 						ItemSeparatorComponent={List.Separator}
 						keyboardShouldPersistTaps='always'
 					/>
-					<List.Separator />
+					{/* <List.Separator />
 					<Button
 						title={I18n.t('Create_a_new_workspace')}
 						type='secondary'
@@ -255,7 +255,7 @@ class ServerDropdown extends Component<IServerDropdownProps, IServerDropdownStat
 						style={styles.buttonCreateWorkspace}
 						color={themes[theme].tintColor}
 						styleText={[styles.serverHeaderAdd, { textAlign: 'center' }]}
-					/>
+					/> */}
 				</Animated.View>
 			</>
 		);

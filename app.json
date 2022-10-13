@@ -1,5 +1,6 @@
 {
 	"name": "RocketChatRN",
-	"share": "ShareRocketChatRN",
-	"displayName": "RocketChatRN"
+	"share": "ShareClippingChat",
+	"displayName": "Clipping",
+	"server": "https://cacd.clipping.chat"
 }

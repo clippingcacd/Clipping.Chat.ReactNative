@@ -9,9 +9,9 @@ export default {
 };
 
 const defaultItem = {
-	name: 'Rocket.Chat',
-	id: 'https://open.rocket.chat/',
-	iconURL: 'https://open.rocket.chat/images/logo/android-chrome-512x512.png'
+	name: 'Clipping.Chat',
+	id: 'https://cacd.clipping.chat/',
+	iconURL: 'https://cacd.clipping.chat/assets/tile_310_square.png'
 };
 
 const ServerItem = ({
