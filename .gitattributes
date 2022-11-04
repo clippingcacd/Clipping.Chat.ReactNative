@@ -1,1 +1,8 @@
 *.pbxproj -text
+ios/RocketChatRN.xcarchive/Products filter=lfs diff=lfs merge=lfs -text
+ios/RocketChatRN.xcarchive/SwiftSupport filter=lfs diff=lfs merge=lfs -text
+ios/RocketChatRN.xcarchive/dSYMs filter=lfs diff=lfs merge=lfs -text
+ios/RocketChatRN.xcarchive/Info.plist filter=lfs diff=lfs merge=lfs -text
+File filter=lfs diff=lfs merge=lfs -text
+ios/RocketChatRN.xcarchive/Products/Applications/Rocket.Chat filter=lfs diff=lfs merge=lfs -text
+Experimental.app/Frameworks/hermes.framework/hermes filter=lfs diff=lfs merge=lfs -text

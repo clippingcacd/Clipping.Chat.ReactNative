@@ -24,6 +24,7 @@ project.xcworkspace
 *.mobileprovision
 ios/Pods/
 /vendor/bundle/
+ios/RocketChatRN.xcarchive/
 
 # Android/IntelliJ
 #

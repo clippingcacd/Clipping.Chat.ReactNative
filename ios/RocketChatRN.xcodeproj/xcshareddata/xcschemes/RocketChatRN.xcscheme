@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Rocket.Chat Experimental.app"
+               BuildableName = "Clipping.chat.app"
                BlueprintName = "RocketChatRN"
                ReferencedContainer = "container:RocketChatRN.xcodeproj">
             </BuildableReference>
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Rocket.Chat Experimental.app"
+            BuildableName = "Clipping.chat.app"
             BlueprintName = "RocketChatRN"
             ReferencedContainer = "container:RocketChatRN.xcodeproj">
          </BuildableReference>
@@ -78,7 +78,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -92,7 +92,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Rocket.Chat Experimental.app"
+            BuildableName = "Clipping.chat.app"
             BlueprintName = "RocketChatRN"
             ReferencedContainer = "container:RocketChatRN.xcodeproj">
          </BuildableReference>
@@ -116,7 +116,7 @@
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -126,7 +126,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Rocket.Chat Experimental.app"
+            BuildableName = "Clipping.chat.app"
             BlueprintName = "RocketChatRN"
             ReferencedContainer = "container:RocketChatRN.xcodeproj">
          </BuildableReference>
@@ -137,6 +137,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Clipping Chat"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
